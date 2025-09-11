@@ -18,5 +18,11 @@ class primitiveConcatenating{
         char space = ' ';
         boolean bool = true;
 
+        //concatenate
+        String print = "" + H + b + s + s + i + space
+                + w + o + r + l + d + space + f + space + bool;
+
+        //print
+        System.out.println(print);
     }
 }
