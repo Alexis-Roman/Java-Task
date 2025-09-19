@@ -5,7 +5,11 @@ import java.util.Scanner;
 class arithmeticOps{
     public static void main(String[] args) {
         Scanner inputNum = new Scanner(System.in);
+
+        System.out.print("Enter first number: ");
+        int firstNum = inputNum.nextInt();
+
+        System.out.print("Enter second number: ");
+        int secondNum = inputNum.nextInt();
     }
-
-
 }
