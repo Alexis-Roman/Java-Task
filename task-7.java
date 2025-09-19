@@ -14,9 +14,24 @@ class arithmeticOps{
         int secondNum = inputNum.nextInt();
 
         System.out.println("Sum: " + add(firstNum, secondNum));
+        System.out.println("Difference: " + subtract(firstNum, secondNum));
+        System.out.println("Product: " + multiply(firstNum, secondNum));
+        System.out.println("Quotient: " + divide(firstNum, secondNum));
     }
 
     public static int add(int a, int b){
         return a + b;
+    }
+
+    public static int subtract (int a, int b){
+        return a - b;
+    }
+
+    public static int multiply (int a, int b){
+        return a * b;
+    }
+
+    public static String divide (int a, int b){
+        return (b==0) ? "Undefined" : String.valueOf((double) a/b);
     }
 }
