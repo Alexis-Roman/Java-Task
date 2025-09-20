@@ -7,7 +7,10 @@ class Student {
         this.firstName = firstName;
         this.lastName = lastName;
     }
-// Your code goes here
+
+    public void printFullName(){
+        System.out.println(firstName + " " + lastName);
+    }
 }
 public class Tasksheet10{
     public static void main(String[] args) {
@@ -16,7 +19,8 @@ public class Tasksheet10{
                 new Student("Brad", "Pitt"),
                 new Student("Kevin", "Spacey"),
         };
-        for (Students: students) {
+
+        for (Student s: students) {
             s.printFullName();
         }
     }
