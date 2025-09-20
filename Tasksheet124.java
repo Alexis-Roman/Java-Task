@@ -8,7 +8,11 @@ class Point {
     public void print() {
         System.out.println("(" + x + "," + y + ")");
     }
-// Your code goes here
+    //created scale method
+    public void scale(){
+        x /= 2;
+        y /= 2;
+    }
 }
 public class Tasksheet124 {
     public static void main(String[] args) {
